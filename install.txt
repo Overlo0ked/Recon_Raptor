@@ -1,0 +1,11 @@
+cd Recon_Raptor
+
+chmod +x install.sh reconraptor.sh setup-env.sh raptor.sh
+
+./install.sh
+
+./update.sh
+
+./setup-env.sh
+
+./raptor.sh domain.com
