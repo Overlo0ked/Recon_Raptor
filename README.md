@@ -5,8 +5,10 @@ git clone https://github.com/Overlo0ked/Recon_Raptor.git
 
 cd Recon_Raptor
 
-chmod +x install.sh reconraptor.sh
+chmod +x install.sh reconraptor.sh setup-env.sh raptor.sh
 
 ./install.sh
-./reconraptor.sh -d domain.com
+./update.sh
+./setup-env.sh
+./raptor.sh domain.com
 
